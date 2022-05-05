@@ -14,7 +14,7 @@ const Watch = () => {
     }, [steps]);
 
     return (
-        <div style={{border: '2px solid purple', margin: '20px'}}>
+        <div style={{border: '2px solid purple'}}>
             <h2>This is my smart watch</h2>
             <h3>My Current Steps: {steps}</h3>
             <button onClick={increaseSteps}>Run....</button>
